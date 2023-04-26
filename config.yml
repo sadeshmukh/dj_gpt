@@ -1,0 +1,7 @@
+spotipy:
+  redirect_uri: http://mysuperwebsiteasfasdf.com/
+  client_id_file: .secrets/spotipy_client_id
+  client_secret_file: .secrets/spotipy_client_secret
+  scope: "user-library-read playlist-modify-private playlist-modify-public playlist-read-private playlist-read-collaborative"
+openai:
+  api_key_file: .secrets/openai_api_key
